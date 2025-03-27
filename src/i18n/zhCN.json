@@ -1,0 +1,13 @@
+{
+  "common": {
+    "lang": "简体中文",
+    "404description": "页面找不到了",
+    "404homeButton": "回到首页"
+  },
+
+  "lang": {
+    "zhCN": "简体中文",
+    "enUS": "English",
+    "zhTW": "繁體中文"
+  }
+}

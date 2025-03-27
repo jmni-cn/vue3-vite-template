@@ -1,0 +1,60 @@
+@import url('./_reset.scss');
+$color-primary: #000;
+
+body,html{
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+a{
+  color: $color-primary;
+  &:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+.logo {
+  height: 6em;
+  padding: 1.5em 0;
+  will-change: filter;
+  transition: filter 300ms;
+  display: flex;
+  align-items: center;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em $color-primary);
+}
+
+// @import url('/css/Noto+Sans/index.css');
+// @import url('/css/Noto+Sans+SC/index.css');
+// @import url('/css/Noto+Sans+KR/index.css');
+// @import url('/css/Noto+Sans+TC/index.css');
+
+body{
+  font-family: "Noto Sans","Noto Sans KR","Noto Sans TC","Noto Sans SC","Noto Sans JP","Noto Sans Thai","Noto Sans Arabic",blinkmacsystemfont,-apple-system,"Segoe UI",roboto,oxygen,ubuntu,cantarell,"Fira Sans","Droid Sans","Helvetica Neue",helvetica,arial,"jm",sans-serif !important;
+  font-style: normal;
+}
+:lang(zhCN) body, :lang(zhCN).markdown-body {
+  font-family: "Noto Sans SC","Noto Sans",blinkmacsystemfont,-apple-system,"Segoe UI",roboto,oxygen,ubuntu,cantarell,"Fira Sans","Droid Sans","Helvetica Neue",helvetica,arial,"jm",sans-serif !important
+}
+:lang(koKR) body, :lang(koKR).markdown-body {
+  font-family: "Noto Sans KR","Noto Sans",blinkmacsystemfont,-apple-system,"Segoe UI",roboto,oxygen,ubuntu,cantarell,"Fira Sans","Droid Sans","Helvetica Neue",helvetica,arial,"jm",sans-serif !important
+}
+:lang(zhTW) body, :lang(zhTW).markdown-body {
+  font-family: "Noto Sans TC","Noto Sans",blinkmacsystemfont,-apple-system,"Segoe UI",roboto,oxygen,ubuntu,cantarell,"Fira Sans","Droid Sans","Helvetica Neue",helvetica,arial,"jm",sans-serif !important
+}
+
+.noto-sans-cn {
+  font-family: "Noto Sans SC","Noto Sans",blinkmacsystemfont,-apple-system,"Segoe UI",roboto,oxygen,ubuntu,cantarell,"Fira Sans","Droid Sans","Helvetica Neue",helvetica,arial,sans-serif!important
+}
+
+.noto-sans-tw {
+  font-family: "Noto Sans TC","Noto Sans",blinkmacsystemfont,-apple-system,"Segoe UI",roboto,oxygen,ubuntu,cantarell,"Fira Sans","Droid Sans","Helvetica Neue",helvetica,arial,sans-serif!important
+}
+.noto-sans {
+  font-family: "Noto Sans",blinkmacsystemfont,-apple-system,"Segoe UI",roboto,oxygen,ubuntu,cantarell,"Fira Sans","Droid Sans","Helvetica Neue",helvetica,arial,sans-serif!important
+}
+
+.noto-sans-ko {
+  font-family: "Noto Sans KR","Noto Sans",blinkmacsystemfont,-apple-system,"Segoe UI",roboto,oxygen,ubuntu,cantarell,"Fira Sans","Droid Sans","Helvetica Neue",helvetica,arial,sans-serif!important
+}
